@@ -217,10 +217,10 @@ if ( !class_exists('BlogCopier') ) {
 
 			if( is_subdomain_install() ) {
 				$newdomain = $domain.".".$current_site->domain;
-				$path = $base;
+				$path = $current_site->path;
 			} else {
 				$newdomain = $current_site->domain;
-				$path = trailingslashit( $base ) . trailingslashit( $domain );
+				$path = trailingslashit( $current_site->path ) . trailingslashit( $domain );
 			}
 
 			// The new domain that will be created for the destination blog.
