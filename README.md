@@ -3,7 +3,9 @@
 Blog Copier is a WordPress plugin that copies sites in a WP network. Fork from https://wordpress.org/plugins/blog-copier/
 
 readme.txt:
+
 === Blog Copier ===
+
 Contributors: ModernTribe, peterchester
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TWM2GF6BQZGSN
 Tags: copy, duplicate, replicate, blog, site, duplicator, replicator, moderntribe, tribe, wpmu, multisite, network, superadmin
